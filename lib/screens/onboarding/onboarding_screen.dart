@@ -44,7 +44,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
           ),
           Positioned.fill(
             child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+              filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
               child: const SizedBox(),
             ),
           ),
@@ -53,7 +53,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
           ),
           Positioned.fill(
             child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+              filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
               child: const SizedBox(),
             ),
           ),
