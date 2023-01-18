@@ -42,7 +42,7 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                 Column(
                   children: [
                     SizedBox(
-                      height: 60,
+                      height: 50,
                     ),
                     const Text(
                       "Sign in",

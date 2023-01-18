@@ -128,7 +128,7 @@ class _SignInFormState extends State<SignInForm> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 8, bottom: 12),
+                padding: const EdgeInsets.only(top: 5, bottom: 10),
                 child: TextFormField(
                   obscureText: true,
                   validator: (value) {
