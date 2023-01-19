@@ -15,7 +15,7 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
     pageBuilder: (_, __, ___) {
       return Center(
         child: Container(
-          height: 750,
+          height: 650,
           margin: const EdgeInsets.symmetric(horizontal: 16),
           padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 24),
           decoration: BoxDecoration(
@@ -63,9 +63,6 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                       ),
                     ),
                     const SignInForm(),
-                    SizedBox(
-                      height: 30,
-                    ),
                     Row(
                       children: const [
                         Expanded(
@@ -83,9 +80,6 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                         ),
                         Expanded(child: Divider()),
                       ],
-                    ),
-                    SizedBox(
-                      height: 30,
                     ),
                     const Padding(
                       padding: EdgeInsets.symmetric(vertical: 24),
