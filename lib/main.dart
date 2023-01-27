@@ -37,7 +37,8 @@ class MyApp extends StatelessWidget {
       ),
       home: const OnbodingScreen(),
     );
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
+    SystemChrome.setSystemUIOverlayStyle(
+        SystemUiOverlayStyle(statusBarColor: Colors.white));
   }
 }
 
