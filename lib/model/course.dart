@@ -36,15 +36,15 @@ final List<Course> courses = [
 ];
 
 final List<Course> recentCourses = [
-  Course(title: "State Machine"),
+  Course(title: "Nguu Parenting"),
   Course(
-    title: "Animated Menu",
+    title: "Cassava Plantation in Highlands",
     color: const Color(0xFF9CC5FF),
     iconSrc: "assets/icons/code.svg",
   ),
-  Course(title: "Flutter with Rive"),
+  Course(title: "The Art of cooking"),
   Course(
-    title: "Animated Menu",
+    title: "Preserving Tribal Treasures",
     color: Color.fromARGB(255, 192, 255, 156),
     iconSrc: "assets/icons/code.svg",
   ),
