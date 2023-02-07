@@ -92,9 +92,9 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                                 //   // fontWeight: FontWeight.w200
                                 ),
                           ),
-                          // Image(
-                          //     image: AssetImage(
-                          //         'assets/images/sonak_logo-removebg.png')),
+                          Image(
+                              image: AssetImage(
+                                  'assets/images/logo.png')),
                         ],
                       ),
                     ),
