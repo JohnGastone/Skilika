@@ -38,15 +38,15 @@ final List<Course> courses = [
 ];
 
 final List<Course> recentCourses = [
-  Course(title: "Nguu Parenting"),
+  Course(title: "Malezi ya Kinguu"),
   Course(
-    title: "Cassava Plantation in Highlands",
+    title: "Kilimo cha Mihogo",
     color: const Color(0xFF9CC5FF),
     iconSrc: "assets/icons/code.svg",
   ),
-  Course(title: "The Art of cooking"),
+  Course(title: "Sanaa ya upishi"),
   Course(
-    title: "Preserving Tribal Treasures",
+    title: "Uhifadhi wa Tunu za Asili",
     color: Color.fromARGB(255, 192, 255, 156),
     iconSrc: "assets/icons/code.svg",
   ),

@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Text(
-                  "Courses",
+                  "Kozi Zinazotolewa",
                   style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                       color: Colors.black, fontWeight: FontWeight.bold),
                 ),
@@ -47,7 +47,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Text(
-                  "Recent",
+                  "Kozi Maarufu",
                   style: Theme.of(context).textTheme.headlineSmall!.copyWith(
                       color: Colors.black, fontWeight: FontWeight.bold),
                 ),

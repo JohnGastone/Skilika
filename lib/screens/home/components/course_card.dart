@@ -40,14 +40,14 @@ class CourseCard extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(top: 12, bottom: 8),
                     child: Text(
-                      "Build and animate an iOS app from scratch",
+                      "Jifunze kushona na kudarizi mitindo mbalimbali",
                       style: TextStyle(
                         color: Colors.white38,
                       ),
                     ),
                   ),
                   Text(
-                    "61 SECTIONS - 11 HOURS",
+                    "Vipindi 30 - Masaa 90",
                     style: TextStyle(
                       color: Colors.white38,
                     ),
