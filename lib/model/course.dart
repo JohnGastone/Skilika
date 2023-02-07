@@ -16,20 +16,20 @@ class Course {
 
 final List<Course> courses = [
   Course(
-    title: "Animations in SwiftUI",
+    title: "Ushonaji na Udarizi",
   ),
   Course(
-    title: "Animations in Flutter",
+    title: "Uokaji wa Mikate",
     iconSrc: "assets/icons/code.svg",
     color: const Color(0xFF80A4FF),
   ),
   Course(
-    title: "Animations in Flutter",
+    title: "Ufundi Uashi",
     iconSrc: "assets/icons/code.svg",
     color: const Color(0xFF80A4FF),
   ),
   Course(
-    title: "Animations in Flutter",
+    title: "Upambaji na Upishi",
     iconSrc: "assets/icons/code.svg",
     color: Color.fromARGB(255, 251, 128, 255),
   ),
