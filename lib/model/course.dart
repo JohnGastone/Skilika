@@ -17,6 +17,8 @@ class Course {
 final List<Course> courses = [
   Course(
     title: "Ushonaji na Udarizi",
+    iconSrc: "assets/icons/code.svg",
+    color: const Color(0xFF80A4FF),
   ),
   Course(
     title: "Uokaji wa Mikate",

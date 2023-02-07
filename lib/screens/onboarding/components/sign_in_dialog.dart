@@ -59,7 +59,7 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                       const Padding(
                         padding: EdgeInsets.symmetric(vertical: 16),
                         child: Text(
-                          "Access to 24/7 hours of service from Duka Tembezi. Do not hesitate to tell us your experience with our services.",
+                          "Pata huduma masaa 24 kila siku kutoka Duka Tembezi. Usisite kutoa maoni yako juu ya utoaji huduma zetu kupitia njia zetu za mawasiliano.\n \n KARIBU!!",
                           textAlign: TextAlign.center,
                         ),
                       ),

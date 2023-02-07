@@ -74,9 +74,9 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                       child: Column(
                         children: const [
                           Text(
-                            "Dare To Work With Us...\nDUKA TEMBEZI",
+                            "Karibu Uweke Oda, Tukununulie na Tukuletee...",
                             style: TextStyle(
-                              fontSize: 45,
+                              fontSize: 40,
                               fontWeight: FontWeight.w700,
                               fontFamily: "Poppins",
                               height: 1.2,
@@ -84,13 +84,13 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                           ),
                           SizedBox(height: 26),
                           Text(
-                            "At the heart of a demanding society is where DUKA TEMBEZI - a quality-oriented firm come to the rise.",
+                            "Usingoje.\n  Usisubiri..\n    Agiza na Uletewe...",
                             style: TextStyle(
-                              fontSize: 20,
-                              //   fontFamily: 'poppins',
-                              //   height: 0.1,
-                              //   // fontWeight: FontWeight.w200
-                            ),
+                                fontSize: 20, fontWeight: FontWeight.w300
+                                //   fontFamily: 'poppins',
+                                //   height: 0.1,
+                                //   // fontWeight: FontWeight.w200
+                                ),
                           ),
                           // Image(
                           //     image: AssetImage(
