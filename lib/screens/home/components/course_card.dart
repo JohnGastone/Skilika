@@ -39,17 +39,17 @@ class CourseCard extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(top: 12, bottom: 8),
-                    child: Text(
+                    child: const Text(
                       "Jifunze kushona na kudarizi mitindo mbalimbali",
                       style: TextStyle(
-                        color: Colors.white38,
+                        color: Colors.black,
                       ),
                     ),
                   ),
-                  Text(
+                  const Text(
                     "Vipindi 30 - Masaa 90",
                     style: TextStyle(
-                      color: Colors.white38,
+                      color: Colors.white70,
                     ),
                   ),
                   Spacer(),

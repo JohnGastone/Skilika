@@ -17,21 +17,42 @@ class Course {
 final List<Course> courses = [
   Course(
     title: "Ushonaji na Udarizi",
+    description: "",
     iconSrc: "assets/icons/code.svg",
     color: const Color(0xFF80A4FF),
   ),
   Course(
     title: "Uokaji wa Mikate",
     iconSrc: "assets/icons/code.svg",
-    color: const Color(0xFF80A4FF),
+    color: Color.fromARGB(255, 144, 148, 158),
   ),
   Course(
     title: "Ufundi Uashi",
     iconSrc: "assets/icons/code.svg",
-    color: const Color(0xFF80A4FF),
+    color: Color.fromARGB(255, 234, 128, 255),
   ),
   Course(
     title: "Upambaji na Upishi",
+    iconSrc: "assets/icons/code.svg",
+    color: Color.fromARGB(255, 227, 11, 235),
+  ),
+  Course(
+    title: "Utengenezaji Vifungashio",
+    iconSrc: "assets/icons/code.svg",
+    color: Color.fromARGB(255, 128, 247, 255),
+  ),
+  Course(
+    title: "Usindikaji wa maziwa",
+    iconSrc: "assets/icons/code.svg",
+    color: const Color(0xFF80A4FF),
+  ),
+  Course(
+    title: "Usafi wa majumbani",
+    iconSrc: "assets/icons/code.svg",
+    color: const Color(0xFF80A4FF),
+  ),
+  Course(
+    title: "Utunzaji wa bustani",
     iconSrc: "assets/icons/code.svg",
     color: Color.fromARGB(255, 251, 128, 255),
   ),

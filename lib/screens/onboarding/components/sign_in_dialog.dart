@@ -124,6 +124,9 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                     ],
                   ),
                 ),
+                SizedBox(
+                        height: 10,
+                      ),
                 const Positioned(
                   left: 0,
                   right: 0,

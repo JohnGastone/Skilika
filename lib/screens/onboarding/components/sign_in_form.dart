@@ -170,6 +170,31 @@ class _SignInFormState extends State<SignInForm> {
                   label: const Text("Sign In"),
                 ),
               ),
+              Padding(
+                padding: const EdgeInsets.only(top: 8, bottom: 24),
+                child: ElevatedButton.icon(
+                  onPressed: () {
+                    singIn(context);
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color.fromARGB(255, 247, 125, 231),
+                    minimumSize: const Size(double.infinity, 56),
+                    shape: const RoundedRectangleBorder(
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(10),
+                        topRight: Radius.circular(25),
+                        bottomRight: Radius.circular(25),
+                        bottomLeft: Radius.circular(25),
+                      ),
+                    ),
+                  ),
+                  icon: const Icon(
+                    CupertinoIcons.arrow_right,
+                    color: Color.fromARGB(255, 48, 47, 47),
+                  ),
+                  label: const Text("Sign Up"),
+                ),
+              ),
             ],
           ),
         ),

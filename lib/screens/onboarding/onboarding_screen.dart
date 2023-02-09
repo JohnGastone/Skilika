@@ -82,11 +82,11 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                               height: 1.2,
                             ),
                           ),
-                          SizedBox(height: 26),
+                          SizedBox(height: 30),
                           Text(
                             "Usingoje.\n  Usisubiri..\n    Agiza na Uletewe...",
                             style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.w300
+                                fontSize: 25, fontWeight: FontWeight.w500
                                 //   fontFamily: 'poppins',
                                 //   height: 0.1,
                                 //   // fontWeight: FontWeight.w200
@@ -107,7 +107,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                         _btnAnimationController.isActive = true;
 
                         Future.delayed(
-                          const Duration(milliseconds: 800),
+                          const Duration(milliseconds: 500),
                           () {
                             setState(() {
                               isShowSignInDialog = true;
