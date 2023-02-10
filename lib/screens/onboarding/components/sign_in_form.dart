@@ -181,15 +181,15 @@ class _SignInFormState extends State<SignInForm> {
                     minimumSize: const Size(double.infinity, 56),
                     shape: const RoundedRectangleBorder(
                       borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(10),
+                        topLeft: Radius.circular(25),
                         topRight: Radius.circular(25),
-                        bottomRight: Radius.circular(25),
+                        bottomRight: Radius.circular(10),
                         bottomLeft: Radius.circular(25),
                       ),
                     ),
                   ),
                   icon: const Icon(
-                    CupertinoIcons.arrow_right,
+                    CupertinoIcons.arrow_up,
                     color: Color.fromARGB(255, 48, 47, 47),
                   ),
                   label: const Text("Sign Up"),

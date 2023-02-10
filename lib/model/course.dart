@@ -39,22 +39,22 @@ final List<Course> courses = [
   Course(
     title: "Utengenezaji Vifungashio",
     iconSrc: "assets/icons/code.svg",
-    color: Color.fromARGB(255, 128, 247, 255),
+    color: const Color(0xFF80A4FF),
   ),
   Course(
     title: "Usindikaji wa maziwa",
     iconSrc: "assets/icons/code.svg",
-    color: const Color(0xFF80A4FF),
+    color: Color.fromARGB(255, 144, 148, 158),
   ),
   Course(
     title: "Usafi wa majumbani",
     iconSrc: "assets/icons/code.svg",
-    color: const Color(0xFF80A4FF),
+    color: Color.fromARGB(255, 234, 128, 255),
   ),
   Course(
     title: "Utunzaji wa bustani",
     iconSrc: "assets/icons/code.svg",
-    color: Color.fromARGB(255, 251, 128, 255),
+    color: Color.fromARGB(255, 227, 11, 235),
   ),
 ];
 
@@ -68,7 +68,19 @@ final List<Course> recentCourses = [
   Course(title: "Sanaa ya upishi"),
   Course(
     title: "Uhifadhi wa Tunu za Asili",
-    color: Color.fromARGB(255, 192, 255, 156),
+    color: const Color(0xFF9CC5FF),
+    iconSrc: "assets/icons/code.svg",
+  ),
+  Course(title: "Malezi ya Kinguu"),
+  Course(
+    title: "Kilimo cha Mihogo",
+    color: const Color(0xFF9CC5FF),
+    iconSrc: "assets/icons/code.svg",
+  ),
+  Course(title: "Sanaa ya upishi"),
+  Course(
+    title: "Uhifadhi wa Tunu za Asili",
+    color: const Color(0xFF9CC5FF),
     iconSrc: "assets/icons/code.svg",
   ),
 ];

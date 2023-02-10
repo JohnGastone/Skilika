@@ -15,7 +15,7 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
     pageBuilder: (_, __, ___) {
       return Center(
         child: Container(
-          height: 650,
+          height: 750,
           margin: const EdgeInsets.symmetric(horizontal: 16),
           padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 24),
           decoration: BoxDecoration(
@@ -42,9 +42,9 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                 SingleChildScrollView(
                   child: Column(
                     children: [
-                      SizedBox(
-                        height: 50,
-                      ),
+                      // SizedBox(
+                      //   height: 50,
+                      // ),
                       const Text(
                         "Sign in",
                         style: TextStyle(
@@ -125,8 +125,8 @@ void showCustomDialog(BuildContext context, {required ValueChanged onValue}) {
                   ),
                 ),
                 SizedBox(
-                        height: 10,
-                      ),
+                  height: 10,
+                ),
                 const Positioned(
                   left: 0,
                   right: 0,
