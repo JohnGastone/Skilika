@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rive_animation/screens/home/home_screen.dart';
 
 import '../../../model/menu.dart';
 import '../../../utils/rive_utils.dart';
@@ -52,7 +53,10 @@ class _SideBarState extends State<SideBar> {
                         press: () {
                           RiveUtils.chnageSMIBoolState(menu.rive.status!);
                           setState(() {
-                            selectedSideMenu = menu;
+                            Navigator.pop(context);
+                            Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => const HomePage(),
+                            ));
                           });
                         },
                         riveOnInit: (artboard) {
@@ -78,7 +82,10 @@ class _SideBarState extends State<SideBar> {
                         press: () {
                           RiveUtils.chnageSMIBoolState(menu.rive.status!);
                           setState(() {
-                            selectedSideMenu = menu;
+                            Navigator.pop(context);
+                            Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => const HomePage(),
+                            ));
                           });
                         },
                         riveOnInit: (artboard) {
