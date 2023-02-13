@@ -41,7 +41,7 @@ class CourseCard extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(top: 12, bottom: 8),
                     child: const Text(
-                      "Jifunze kushona na kudarizi mitindo mbalimbali",
+                      "",
                       style: TextStyle(
                         color: Colors.black,
                       ),
@@ -51,7 +51,7 @@ class CourseCard extends StatelessWidget {
                     padding:
                         const EdgeInsets.only(top: 12, bottom: 8, right: 50),
                     child: const Text(
-                      "Vipindi 30 - Masaa 90",
+                      "",
                       style: TextStyle(
                         color: Colors.white70,
                       ),
