@@ -60,7 +60,7 @@ class CourseCard extends StatelessWidget {
                   Spacer(),
                   Row(
                     children: List.generate(
-                      3,
+                      6,
                       (index) => Transform.translate(
                         offset: Offset((-10 * index).toDouble(), 0),
                         child: CircleAvatar(
