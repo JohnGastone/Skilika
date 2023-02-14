@@ -37,6 +37,7 @@ class HomePage extends StatelessWidget {
                           child: CourseCard(
                             title: course.title,
                             description: course.description,
+                            duration: course.duration,
                             iconSrc: course.iconSrc,
                             color: course.color,
                           ),
