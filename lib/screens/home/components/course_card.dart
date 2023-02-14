@@ -8,11 +8,12 @@ class CourseCard extends StatelessWidget {
   const CourseCard({
     Key? key,
     required this.title,
+    required this.description,
     this.color = const Color(0xFF7553F6),
     this.iconSrc = "assets/icons/ios.svg",
   }) : super(key: key);
 
-  final String title, iconSrc;
+  final String title, description, iconSrc;
   final Color color;
 
   @override
@@ -38,6 +39,13 @@ class CourseCard extends StatelessWidget {
                     style: Theme.of(context).textTheme.titleLarge!.copyWith(
                         color: Colors.white, fontWeight: FontWeight.w600),
                   ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text(
+                    description,
+                    style: TextStyle(fontSize: 15),
+                  ),
                   Padding(
                     padding: const EdgeInsets.only(top: 12, bottom: 8),
                     child: const Text(
@@ -60,7 +68,7 @@ class CourseCard extends StatelessWidget {
                   Spacer(),
                   Row(
                     children: List.generate(
-                      6,
+                      3,
                       (index) => Transform.translate(
                         offset: Offset((-10 * index).toDouble(), 0),
                         child: CircleAvatar(

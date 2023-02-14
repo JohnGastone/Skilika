@@ -19,7 +19,7 @@ class _SideBarState extends State<SideBar> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Container(
-        width: 288,
+        width: 150,
         height: double.infinity,
         decoration: const BoxDecoration(
           color: Color(0xFF17203A),

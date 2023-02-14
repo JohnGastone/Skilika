@@ -36,6 +36,7 @@ class HomePage extends StatelessWidget {
                           padding: const EdgeInsets.only(left: 20),
                           child: CourseCard(
                             title: course.title,
+                            description: course.description,
                             iconSrc: course.iconSrc,
                             color: course.color,
                           ),
@@ -58,6 +59,7 @@ class HomePage extends StatelessWidget {
                             left: 20, right: 20, bottom: 20),
                         child: SecondaryCourseCard(
                           title: course.title,
+                          description: course.description,
                           iconsSrc: course.iconSrc,
                           colorl: course.color,
                         ),

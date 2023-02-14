@@ -5,11 +5,12 @@ class SecondaryCourseCard extends StatelessWidget {
   const SecondaryCourseCard({
     Key? key,
     required this.title,
+    required this.description,
     this.iconsSrc = "assets/icons/ios.svg",
     this.colorl = const Color(0xFF7553F6),
   }) : super(key: key);
 
-  final String title, iconsSrc;
+  final String title, description, iconsSrc;
   final Color colorl;
 
   @override
