@@ -1,5 +1,5 @@
-// ignore_for_file: prefer_const_constructors, unused_import
-
+// ignore_for_file: prefer_const_constructors, unused_import, sort_child_properties_last
+import 'package:animated_button/animated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -62,26 +62,28 @@ class CourseCard extends StatelessWidget {
                       style: TextStyle(fontSize: 15, color: Colors.white),
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 12, bottom: 8),
-                    child: const Text(
-                      "",
-                      style: TextStyle(
-                        color: Colors.black,
-                      ),
-                    ),
+                  // Padding(
+                  //   padding: const EdgeInsets.only(top: 12, bottom: 8),
+                  //   child: const Text(
+                  //     "",
+                  //     style: TextStyle(
+                  //       color: Colors.black,
+                  //     ),
+                  //   ),
+                  // ),
+                  // Padding(
+                  //   padding:
+                  //       const EdgeInsets.only(top: 12, bottom: 8, right: 50),
+                  //   child: const Text(
+                  //     "",
+                  //     style: TextStyle(
+                  //       color: Colors.white70,
+                  //     ),
+                  //   ),
+                  // ),
+                  SizedBox(
+                    height: 5,
                   ),
-                  Padding(
-                    padding:
-                        const EdgeInsets.only(top: 12, bottom: 8, right: 50),
-                    child: const Text(
-                      "",
-                      style: TextStyle(
-                        color: Colors.white70,
-                      ),
-                    ),
-                  ),
-                  Spacer(),
                   Row(
                     children: List.generate(
                       3,
@@ -97,10 +99,13 @@ class CourseCard extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 12),
-                  // ElevatedButton.icon(
-                  //   onPressed: onPressed,
-                  //   icon: Icons.pageview_outlined,
-                  //   label: )
+                  AnimatedButton(
+                    child: Icon(Icons.arrow_circle_right),
+                    onPressed: () {},
+                    enabled: true,
+                    shadowDegree: ShadowDegree.light,
+                    duration: 400,
+                  ),
                 ],
               ),
             ),
