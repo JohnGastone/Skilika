@@ -36,22 +36,23 @@ class CourseCard extends StatelessWidget {
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(top: 12, bottom: 8, right: 20),
-                    child: const Text(
-                    title,
-                    style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                        color: Colors.white, fontWeight: FontWeight.w600),
+                    padding:
+                        const EdgeInsets.only(top: 12, bottom: 8, right: 20),
+                    child: Text(
+                      title,
+                      style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                          color: Colors.white, fontWeight: FontWeight.w600),
+                    ),
                   ),
-                  )
                   SizedBox(
-                    height: 10,
+                    height: 4,
                   ),
                   Text(
                     description,
                     style: TextStyle(fontSize: 15),
                   ),
                   SizedBox(
-                    height: 7,
+                    height: 3,
                   ),
                   Padding(
                     padding:
@@ -95,13 +96,18 @@ class CourseCard extends StatelessWidget {
                       ),
                     ),
                   ),
+                  const SizedBox(width: 12),
+                  // ElevatedButton.icon(
+                  //   onPressed: onPressed,
+                  //   icon: Icons.pageview_outlined,
+                  //   label: )
                 ],
               ),
             ),
           ),
           Icon(
             CupertinoIcons.calendar_badge_plus,
-            size: 35,
+            size: 30,
             color: Colors.black54,
           )
         ],
