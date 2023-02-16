@@ -3,6 +3,7 @@ import 'package:animated_button/animated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:rive_animation/screens/messaging/chat.dart';
 import 'package:rive_animation/screens/onboarding/onboarding_screen.dart';
 
 class CourseCard extends StatelessWidget {
@@ -88,10 +89,10 @@ class CourseCard extends StatelessWidget {
                     child: AnimatedButton(
                       child: Icon(Icons.arrow_circle_right),
                       onPressed: () {
-                         Navigator.pop(context);
-                            Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => const OnbodingScreen(),
-                            ));
+                        Navigator.pop(context);
+                        Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => const ChatPage(),
+                        ));
                       },
                       enabled: true,
                       shadowDegree: ShadowDegree.light,

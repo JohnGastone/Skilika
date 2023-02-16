@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:rive_animation/screens/onboarding/components/sign_up_form.dart';
 
 import 'sign_in_form.dart';
 
@@ -63,7 +64,7 @@ void showCustomDialogUp(BuildContext context, {required ValueChanged onValue}) {
                           textAlign: TextAlign.center,
                         ),
                       ),
-                      const SignInForm(),
+                      const SignUpForm(),
                       Row(
                         children: const [
                           // Expanded(
@@ -130,7 +131,7 @@ void showCustomDialogUp(BuildContext context, {required ValueChanged onValue}) {
                 const Positioned(
                   left: 0,
                   right: 0,
-                  bottom: -48,
+                  bottom: -150,
                   child: CircleAvatar(
                     radius: 16,
                     backgroundColor: Colors.white,
