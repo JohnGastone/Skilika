@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
+import 'package:rive_animation/screens/onboarding/onboarding_screen.dart';
 
 import '../../../model/menu.dart';
 import 'animated_bar.dart';
@@ -20,7 +21,12 @@ class BtmNavItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: press,
+      onTap: () {
+        Navigator.pop(context);
+        Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => const OnbodingScreen(),
+        ));
+      },
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [

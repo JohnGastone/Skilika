@@ -5,7 +5,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import 'sign_in_form.dart';
 
-void showCustomDialogIn(BuildContext context, {required ValueChanged onValue}) {
+void showCustomDialogUp(BuildContext context, {required ValueChanged onValue}) {
   showGeneralDialog(
     context: context,
     barrierLabel: "Barrier",
@@ -46,7 +46,7 @@ void showCustomDialogIn(BuildContext context, {required ValueChanged onValue}) {
                       //   height: 50,
                       // ),
                       const Text(
-                        "Sign in",
+                        "Sign Up",
                         style: TextStyle(
                           fontSize: 34,
                           fontFamily: "Poppins",
@@ -59,7 +59,7 @@ void showCustomDialogIn(BuildContext context, {required ValueChanged onValue}) {
                       const Padding(
                         padding: EdgeInsets.symmetric(vertical: 16),
                         child: Text(
-                          "Pata huduma masaa 24 kila siku kutoka Duka Tembezi. Usisite kutoa maoni yako juu ya utoaji huduma zetu kupitia njia zetu za mawasiliano.\n \n KARIBU!!",
+                          "Jisajili ili upate huduma kutoka Duka Tembezi, ni rahisi sana.\n \n KARIBU!!",
                           textAlign: TextAlign.center,
                         ),
                       ),

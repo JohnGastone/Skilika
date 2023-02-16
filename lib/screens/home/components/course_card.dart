@@ -3,6 +3,7 @@ import 'package:animated_button/animated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:rive_animation/screens/onboarding/onboarding_screen.dart';
 
 class CourseCard extends StatelessWidget {
   const CourseCard({
@@ -62,25 +63,6 @@ class CourseCard extends StatelessWidget {
                       style: TextStyle(fontSize: 15, color: Colors.white),
                     ),
                   ),
-                  // Padding(
-                  //   padding: const EdgeInsets.only(top: 12, bottom: 8),
-                  //   child: const Text(
-                  //     "",
-                  //     style: TextStyle(
-                  //       color: Colors.black,
-                  //     ),
-                  //   ),
-                  // ),
-                  // Padding(
-                  //   padding:
-                  //       const EdgeInsets.only(top: 12, bottom: 8, right: 50),
-                  //   child: const Text(
-                  //     "",
-                  //     style: TextStyle(
-                  //       color: Colors.white70,
-                  //     ),
-                  //   ),
-                  // ),
                   SizedBox(
                     height: 5,
                   ),
@@ -98,13 +80,25 @@ class CourseCard extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const SizedBox(width: 12),
-                  AnimatedButton(
-                    child: Icon(Icons.arrow_circle_right),
-                    onPressed: () {},
-                    enabled: true,
-                    shadowDegree: ShadowDegree.light,
-                    duration: 400,
+                  const SizedBox(
+                    width: 12,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 70, bottom: 15),
+                    child: AnimatedButton(
+                      child: Icon(Icons.arrow_circle_right),
+                      onPressed: () {
+                         Navigator.pop(context);
+                            Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => const OnbodingScreen(),
+                            ));
+                      },
+                      enabled: true,
+                      shadowDegree: ShadowDegree.light,
+                      duration: 400,
+                      shape: BoxShape.circle,
+                      height: 50,
+                    ),
                   ),
                 ],
               ),
