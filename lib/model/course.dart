@@ -17,14 +17,14 @@ class Course {
 
 final List<Course> courses = [
   Course(
-    title: "Ushonaji na Udarizi",
+    title: "Ushonaji Udarizi",
     description: "Jifunze kushona na kudarizi mitindo mbalimbali.",
     duration: "Masaa 165, @wiki/15",
     iconSrc: "assets/icons/code.svg",
     color: const Color(0xFF80A4FF),
   ),
   Course(
-    title: "Uokaji wa Mikate",
+    title: "Uokaji Mikate",
     description: "Jifunze kuoka mikate aina zote.",
     duration: "Masaa 165, @wiki/15",
     iconSrc: "assets/icons/apple_box.svg",
@@ -38,7 +38,7 @@ final List<Course> courses = [
     color: Color.fromARGB(255, 234, 128, 255),
   ),
   Course(
-    title: "Upambaji na Upishi",
+    title: "Upambaji | Upishi",
     description: "Jifunze upishi na upambaji wa Kitanzania",
     duration: "Masaa 165, @wiki/15",
     iconSrc: "assets/icons/email_box.svg",
@@ -59,14 +59,14 @@ final List<Course> courses = [
     color: Color.fromARGB(255, 144, 148, 158),
   ),
   Course(
-    title: "Usafi wa majumbani",
+    title: "Usafi majumbani",
     description: "Jifunze kushona na kudarizi mitindo mbalimbali",
     duration: "Masaa 165, @wiki/15",
     iconSrc: "assets/icons/ios.svg",
     color: Color.fromARGB(255, 234, 128, 255),
   ),
   Course(
-    title: "Utunzaji wa bustani",
+    title: "Utunzaji bustani",
     description: "Jifunze kushona na kudarizi mitindo mbalimbali",
     duration: "Masaa 165, @wiki/15",
     iconSrc: "assets/icons/password.svg",

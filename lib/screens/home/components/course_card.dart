@@ -23,8 +23,8 @@ class CourseCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
-      height: 280,
-      width: 265,
+      height: 200,
+      width: 200,
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.all(Radius.circular(30)),
@@ -43,29 +43,31 @@ class CourseCard extends StatelessWidget {
                     child: Text(
                       title,
                       style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                          color: Colors.white, fontWeight: FontWeight.w600),
+                          color: Colors.white,
+                          fontWeight: FontWeight.w600,
+                          fontSize: 16),
                     ),
                   ),
                   SizedBox(
-                    height: 4,
+                    height: 2,
                   ),
                   Text(
                     description,
-                    style: TextStyle(fontSize: 15),
+                    style: TextStyle(fontSize: 13),
                   ),
                   SizedBox(
                     height: 3,
                   ),
                   Padding(
                     padding:
-                        const EdgeInsets.only(top: 12, bottom: 8, right: 60),
+                        const EdgeInsets.only(top: 5, bottom: 8, right: 60),
                     child: Text(
                       duration,
-                      style: TextStyle(fontSize: 15, color: Colors.white),
+                      style: TextStyle(fontSize: 10, color: Colors.white),
                     ),
                   ),
                   SizedBox(
-                    height: 5,
+                    height: 3,
                   ),
                   Row(
                     children: List.generate(
@@ -73,7 +75,7 @@ class CourseCard extends StatelessWidget {
                       (index) => Transform.translate(
                         offset: Offset((-10 * index).toDouble(), 0),
                         child: CircleAvatar(
-                          radius: 20,
+                          radius: 15,
                           backgroundImage: AssetImage(
                             "assets/avaters/Avatar ${index + 1}.jpg",
                           ),
@@ -82,32 +84,32 @@ class CourseCard extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    width: 12,
+                    width: 7,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 70, bottom: 15),
-                    child: AnimatedButton(
-                      child: Icon(Icons.arrow_circle_right),
-                      onPressed: () {
-                        Navigator.pop(context);
-                        Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => const ChatPage(),
-                        ));
-                      },
-                      enabled: true,
-                      shadowDegree: ShadowDegree.light,
-                      duration: 400,
-                      shape: BoxShape.circle,
-                      height: 50,
-                    ),
-                  ),
+                  // Padding(
+                  //   padding: const EdgeInsets.only(left: 50, bottom: 15),
+                  //   child: AnimatedButton(
+                  //     child: Icon(Icons.arrow_circle_right),
+                  //     onPressed: () {
+                  //       Navigator.pop(context);
+                  //       Navigator.of(context).push(MaterialPageRoute(
+                  //         builder: (context) => const ChatPage(),
+                  //       ));
+                  //     },
+                  //     enabled: true,
+                  //     shadowDegree: ShadowDegree.light,
+                  //     duration: 400,
+                  //     shape: BoxShape.circle,
+                  //     height: 30,
+                  //   ),
+                  // ),
                 ],
               ),
             ),
           ),
           Icon(
             CupertinoIcons.calendar_badge_plus,
-            size: 30,
+            size: 20,
             color: Colors.black54,
           )
         ],
