@@ -52,12 +52,12 @@ class _SideBarState extends State<SideBar> {
                         selectedMenu: selectedSideMenu,
                         press: () {
                           RiveUtils.chnageSMIBoolState(menu.rive.status!);
-                          setState(() {
-                            Navigator.pop(context);
-                            Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => const HomePage(),
-                            ));
-                          });
+                          // setState(() {
+                          //   //Navigator.pop(context);
+                          //   // Navigator.of(context).push(MaterialPageRoute(
+                          //   //   builder: (context) => const HomePage(),
+                          //   // ));
+                          // });
                         },
                         riveOnInit: (artboard) {
                           menu.rive.status = RiveUtils.getRiveInput(artboard,
@@ -81,12 +81,12 @@ class _SideBarState extends State<SideBar> {
                         selectedMenu: selectedSideMenu,
                         press: () {
                           RiveUtils.chnageSMIBoolState(menu.rive.status!);
-                          setState(() {
-                            Navigator.pop(context);
-                            Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => const HomePage(),
-                            ));
-                          });
+                          // setState(() {
+                          //   //Navigator.pop(context);
+                          //   // Navigator.of(context).push(MaterialPageRoute(
+                          //   //   builder: (context) => const HomePage(),
+                          //   // ));
+                          // });
                         },
                         riveOnInit: (artboard) {
                           menu.rive.status = RiveUtils.getRiveInput(artboard,
