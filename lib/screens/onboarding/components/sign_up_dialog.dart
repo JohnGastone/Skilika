@@ -60,7 +60,7 @@ void showCustomDialogUp(BuildContext context, {required ValueChanged onValue}) {
                       const Padding(
                         padding: EdgeInsets.symmetric(vertical: 16),
                         child: Text(
-                          "Jisajili ili upate huduma kutoka Duka Tembezi, ni rahisi sana.\n \n KARIBU!!",
+                          "Jisajili ili upate maarifa na stadi za maisha kupitia SKILIKA, ni rahisi sana.\n \n KARIBU SANA!!",
                           textAlign: TextAlign.center,
                         ),
                       ),
