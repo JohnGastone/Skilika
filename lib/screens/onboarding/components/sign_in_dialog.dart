@@ -45,6 +45,7 @@ void showCustomDialogIn(BuildContext context, {required ValueChanged onValue}) {
                       // SizedBox(
                       //   height: 50,
                       // ),
+                      //Image.asset("assets/avatars/Avatar Default.jpg"),
                       const Text(
                         "Sign in",
                         style: TextStyle(

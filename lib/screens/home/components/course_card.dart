@@ -24,7 +24,7 @@ class CourseCard extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
       height: 200,
-      width: 200,
+      width: 208,
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.all(Radius.circular(30)),
@@ -71,13 +71,13 @@ class CourseCard extends StatelessWidget {
                   ),
                   Row(
                     children: List.generate(
-                      3,
+                      4,
                       (index) => Transform.translate(
                         offset: Offset((-10 * index).toDouble(), 0),
                         child: CircleAvatar(
                           radius: 15,
                           backgroundImage: AssetImage(
-                            "assets/avaters/Avatar ${index + 1}.jpg",
+                            "assets/avatars/Avatar ${index + 1}.jpg",
                           ),
                         ),
                       ),
