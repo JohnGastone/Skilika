@@ -34,7 +34,7 @@ class _SideBarState extends State<SideBar> {
             children: [
               const InfoCard(
                 name: "John Gastone",
-                bio: "Skilika Ltd",
+                bio: "Skilika Co.tz",
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 24, top: 32, bottom: 16),
