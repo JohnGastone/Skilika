@@ -146,6 +146,30 @@ class _SignUpFormState extends State<SignUpForm> {
                   ),
                 ),
               ),
+              const Text(
+                "Confirm Password",
+                style: TextStyle(
+                  color: Colors.black54,
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 5, bottom: 10),
+                child: TextFormField(
+                  obscureText: true,
+                  validator: (value) {
+                    if (value!.isEmpty) {
+                      return "";
+                    }
+                    return null;
+                  },
+                  decoration: InputDecoration(
+                    prefixIcon: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8),
+                      child: SvgPicture.asset("assets/icons/password.svg"),
+                    ),
+                  ),
+                ),
+              ),
               // Padding(
               //   padding: const EdgeInsets.only(top: 8, bottom: 24),
               //   child: ElevatedButton.icon(

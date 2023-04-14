@@ -45,6 +45,7 @@ void showCustomDialogIn(BuildContext context, {required ValueChanged onValue}) {
                       // SizedBox(
                       //   height: 50,
                       // ),
+                      //Image.asset("assets/avatars/Avatar Default.jpg"),
                       const Text(
                         "Sign in",
                         style: TextStyle(
@@ -59,7 +60,7 @@ void showCustomDialogIn(BuildContext context, {required ValueChanged onValue}) {
                       const Padding(
                         padding: EdgeInsets.symmetric(vertical: 16),
                         child: Text(
-                          "Pata huduma masaa 24 kila siku kutoka Duka Tembezi. Usisite kutoa maoni yako juu ya utoaji huduma zetu kupitia njia zetu za mawasiliano.\n \n KARIBU!!",
+                          "Pata huduma masaa 24 kila siku kutoka SKILIKA. Usisite kutoa maoni yako juu ya utoaji huduma zetu kupitia njia zetu za mawasiliano.\n \n KARIBU SANA!!",
                           textAlign: TextAlign.center,
                         ),
                       ),

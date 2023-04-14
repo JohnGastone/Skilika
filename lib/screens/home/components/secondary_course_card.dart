@@ -6,11 +6,12 @@ class SecondaryCourseCard extends StatelessWidget {
     Key? key,
     required this.title,
     required this.description,
+    required this.duration,
     this.iconsSrc = "assets/icons/ios.svg",
     this.colorl = const Color(0xFF7553F6),
   }) : super(key: key);
 
-  final String title, description, iconsSrc;
+  final String title, description, duration, iconsSrc;
   final Color colorl;
 
   @override
@@ -40,6 +41,11 @@ class SecondaryCourseCard extends StatelessWidget {
                     color: Colors.white60,
                     fontSize: 16,
                   ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  duration,
+                  style: const TextStyle(fontSize: 10, color: Colors.white),
                 )
               ],
             ),

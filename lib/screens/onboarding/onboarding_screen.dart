@@ -74,7 +74,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                       child: Column(
                         children: const [
                           Text(
-                            "Karibu Uweke Oda, Tukununulie na Tukuletee...",
+                            "Karibu Uweke Oda, Ujifunze na Ufanyie kazi ujuzi wako...",
                             style: TextStyle(
                               fontSize: 40,
                               fontWeight: FontWeight.w700,
@@ -84,7 +84,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                           ),
                           SizedBox(height: 30),
                           Text(
-                            "Usingoje.\n  Usisubiri..\n    Agiza na Uletewe...",
+                            "Usingoje.\n  Usisubiri..\n    Oda na Ujifunze...",
                             style: TextStyle(
                                 fontSize: 25, fontWeight: FontWeight.w500
                                 //   fontFamily: 'poppins',
@@ -107,7 +107,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                         _btnAnimationController.isActive = true;
 
                         Future.delayed(
-                          const Duration(milliseconds: 500),
+                          const Duration(milliseconds: 600),
                           () {
                             setState(() {
                               isShowSignInDialog = true;

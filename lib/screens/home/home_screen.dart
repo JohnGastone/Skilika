@@ -54,13 +54,14 @@ class HomePage extends StatelessWidget {
                       color: Colors.black, fontWeight: FontWeight.bold),
                 ),
               ),
-              ...recentCourses
+              ...popularCourses
                   .map((course) => Padding(
                         padding: const EdgeInsets.only(
                             left: 20, right: 20, bottom: 20),
                         child: SecondaryCourseCard(
                           title: course.title,
                           description: course.description,
+                          duration: course.duration,
                           iconsSrc: course.iconSrc,
                           colorl: course.color,
                         ),
