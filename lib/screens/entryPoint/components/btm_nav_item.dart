@@ -22,10 +22,10 @@ class BtmNavItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.pop(context);
-        Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => const OnbodingScreen(),
-        ));
+        // Navigator.pop(context);
+        // Navigator.of(context).push(MaterialPageRoute(
+        //   builder: (context) => const OnbodingScreen(),
+        // ));
       },
       child: Column(
         mainAxisSize: MainAxisSize.min,
