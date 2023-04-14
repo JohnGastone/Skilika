@@ -17,20 +17,20 @@ class Course {
 
 final List<Course> courses = [
   Course(
-    title: "Ushonaji na Udarizi",
+    title: "Ushonaji na Udarizi         ",
     description: "Jifunze kushona na kudarizi mitindo mbalimbali.",
     duration: "Masaa 180, @15/wiki",
     iconSrc: "assets/icons/code.svg",
     color: const Color(0xFF80A4FF),
   ),
   Course(
-    title: "Malezi ya Kinguu",
-    description: "Jifunze malezi adhimu kutoka kabila la nguu",
+    title: "Malezi ya Kinguu        ",
+    description: "Jifunze malezi adhimu kutoka kabila la nguu.",
     duration: "Masaa 12, @3/wiki",
     iconSrc: "assets/icons/password.svg",
   ),
   Course(
-    title: "Uokaji wa Mikate",
+    title: "Uokaji wa Mikate        ",
     description: "Jifunze kuoka mikate aina zote.",
     duration: "Masaa 165, @15/wiki",
     iconSrc: "assets/icons/apple_box.svg",
@@ -44,28 +44,28 @@ final List<Course> courses = [
     color: Color.fromARGB(255, 234, 128, 255),
   ),
   Course(
-    title: "Upambaji | Upishi",
+    title: "Upambaji na Upishi    ",
     description: "Jifunze upishi na upambaji wa Kitanzania",
     duration: "Masaa 165, @15/wiki",
     iconSrc: "assets/icons/email_box.svg",
     color: Color.fromARGB(255, 227, 11, 235),
   ),
   Course(
-    title: "Kilimo cha Mihogo",
+    title: "Kilimo cha Mihogo      ",
     description: "Jifunze kilimo cha muhogo kwa chakula na biashara",
     duration: "Masaa 165, @15/wiki",
     color: const Color(0xFF9CC5FF),
     iconSrc: "assets/icons/User.svg",
   ),
   Course(
-    title: "Utengenezaji Vifungashio",
+    title: "Utengenezaji Vifungash",
     description: "Jifunze utengenezaji wa vifungashio.",
     duration: "Masaa 165, @15/wiki",
     iconSrc: "assets/icons/email.svg",
     color: const Color(0xFF80A4FF),
   ),
   Course(
-    title: "Usindikaji wa maziwa",
+    title: "Usindikaji wa maziwa  ",
     description: "Jifunze usindikaji maziwa aina zote.",
     duration: "Masaa 165, @15/wiki",
     iconSrc: "assets/icons/google_box.svg",
@@ -79,7 +79,7 @@ final List<Course> courses = [
     color: Color.fromARGB(255, 234, 128, 255),
   ),
   Course(
-    title: "Utunzaji wa bustani",
+    title: "Utunzaji wa bustani   ",
     description: "Jifunze kutunza bustani mbalimbali.",
     duration: "Masaa 165, @15/wiki",
     iconSrc: "assets/icons/password.svg",

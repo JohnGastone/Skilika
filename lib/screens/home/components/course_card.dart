@@ -23,8 +23,8 @@ class CourseCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
-      height: 200,
-      width: 208,
+      height: 205,
+      width: 230,
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.all(Radius.circular(30)),
@@ -70,18 +70,32 @@ class CourseCard extends StatelessWidget {
                     height: 3,
                   ),
                   Row(
-                    children: List.generate(
-                      4,
-                      (index) => Transform.translate(
-                        offset: Offset((-10 * index).toDouble(), 0),
-                        child: CircleAvatar(
-                          radius: 15,
-                          backgroundImage: AssetImage(
-                            "assets/avatars/Avatar ${index + 1}.jpg",
+                    children: [
+                      Row(
+                        children: List.generate(
+                          3,
+                          (index) => Transform.translate(
+                            offset: Offset((-10 * index).toDouble(), 0),
+                            child: CircleAvatar(
+                              radius: 10,
+                              backgroundImage: AssetImage(
+                                "assets/avatars/Avatar ${index + 1}.jpg",
+                              ),
+                            ),
                           ),
                         ),
                       ),
-                    ),
+                      SizedBox(
+                        width: 1,
+                      ),
+                      Text(
+                        '50+ Active Students',
+                        style: TextStyle(
+                            fontSize: 12,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white70),
+                      ),
+                    ],
                   ),
                   const SizedBox(
                     width: 7,

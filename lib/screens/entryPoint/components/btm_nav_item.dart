@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 import 'package:rive_animation/screens/onboarding/onboarding_screen.dart';
-
 import '../../../model/menu.dart';
 import 'animated_bar.dart';
 
