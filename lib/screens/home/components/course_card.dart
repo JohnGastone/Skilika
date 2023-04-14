@@ -3,6 +3,7 @@ import 'package:animated_button/animated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:rive_animation/screens/course_description.dart';
 import 'package:rive_animation/screens/messaging/chat.dart';
 import 'package:rive_animation/screens/onboarding/onboarding_screen.dart';
 
@@ -23,7 +24,7 @@ class CourseCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
-      height: 205,
+      height: 215,
       width: 230,
       decoration: BoxDecoration(
         color: color,
@@ -98,7 +99,20 @@ class CourseCard extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(
-                    width: 7,
+                    height: 7,
+                  ),
+                  InkWell(
+                    onTap: () {
+                      Navigator.pop(context);
+                      Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const CourseDescription(),
+                      ));
+                    },
+                    child: Icon(
+                      Icons.arrow_forward,
+                      size: 30,
+                      color: Colors.black,
+                    ),
                   ),
                   // Padding(
                   //   padding: const EdgeInsets.only(left: 50, bottom: 15),

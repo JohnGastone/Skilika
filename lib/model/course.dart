@@ -44,6 +44,12 @@ final List<Course> courses = [
     color: Color.fromARGB(255, 234, 128, 255),
   ),
   Course(
+    title: "Sanaa ya upishi         ",
+    description: "Karibu tujifunze mapishi kama sanaa ",
+    duration: "Masaa 165, @15/wiki",
+    iconSrc: "assets/icons/password.svg",
+  ),
+  Course(
     title: "Upambaji na Upishi    ",
     description: "Jifunze upishi na upambaji wa Kitanzania",
     duration: "Masaa 165, @15/wiki",
@@ -58,7 +64,7 @@ final List<Course> courses = [
     iconSrc: "assets/icons/User.svg",
   ),
   Course(
-    title: "Utengenezaji Vifungash",
+    title: "Utengenezaji wa Vifungashio",
     description: "Jifunze utengenezaji wa vifungashio.",
     duration: "Masaa 165, @15/wiki",
     iconSrc: "assets/icons/email.svg",
@@ -84,6 +90,20 @@ final List<Course> courses = [
     duration: "Masaa 165, @15/wiki",
     iconSrc: "assets/icons/password.svg",
     color: Color.fromARGB(255, 93, 117, 5),
+  ),
+  Course(
+    title: "Ufugaji samaki",
+    description: "Jifunze ufugaji samaki mbalimbali",
+    duration: "Masaa 165, @15/wiki",
+    color: Color.fromARGB(255, 227, 11, 235),
+    iconSrc: "assets/icons/ios.svg",
+  ),
+  Course(
+    title: "Uchongaji Vinyago",
+    description: "Jifunze uchongaji vinyago kisasa",
+    duration: "Masaa 165, @15/wiki",
+    iconSrc: "assets/icons/User.svg",
+    color: const Color(0xFF80A4FF),
   ),
 ];
 
