@@ -64,7 +64,7 @@ final List<Course> courses = [
     iconSrc: "assets/icons/User.svg",
   ),
   Course(
-    title: "Utengenezaji wa Vifungashio",
+    title: "Vifungashio class       ",
     description: "Jifunze utengenezaji wa vifungashio.",
     duration: "Masaa 165, @15/wiki",
     iconSrc: "assets/icons/email.svg",

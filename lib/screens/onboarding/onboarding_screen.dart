@@ -32,19 +32,19 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned(
-            width: MediaQuery.of(context).size.width * 1.7,
-            // left: 100,
-            bottom: 100,
-            top: 50,
-            right: 100,
-            child: Image.asset(
-              "assets/Backgrounds/Spline.png",
-            ),
-          ),
+          // Positioned(
+          //   width: MediaQuery.of(context).size.width * 1.7,
+          //   // left: 100,
+          //   bottom: 100,
+          //   top: 50,
+          //   right: 100,
+          //   child: Image.asset(
+          //     "assets/Backgrounds/Spline.png",
+          //   ),
+          // ),
           Positioned.fill(
             child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+              filter: ImageFilter.blur(sigmaX: 1, sigmaY: 1),
               child: const SizedBox(),
             ),
           ),
@@ -53,7 +53,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
           ),
           Positioned.fill(
             child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
+              filter: ImageFilter.blur(sigmaX: 1, sigmaY: 1),
               child: const SizedBox(),
             ),
           ),

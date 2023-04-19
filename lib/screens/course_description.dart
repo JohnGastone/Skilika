@@ -12,7 +12,7 @@ class CourseDescription extends StatelessWidget {
       body: Row(
         children: [
           SizedBox(
-            height: 100,
+            height: 105,
           ),
           InkWell(
             onTap: () {
@@ -27,9 +27,9 @@ class CourseDescription extends StatelessWidget {
               color: Colors.blueGrey,
             ),
           ),
-          // SizedBox(
-          //   width: 13,
-          // ),
+          Spacer(
+            flex: 1,
+          ),
           Text(
             'Course Description',
             style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold),

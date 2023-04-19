@@ -1,14 +1,18 @@
-// ignore_for_file: prefer_const_constructors, unused_import, sort_child_properties_last
+// ignore_for_file: prefer_const_constructors, unused_import, sort_child_properties_last, unused_field
 import 'package:animated_button/animated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:rive/rive.dart';
 import 'package:rive_animation/screens/course_description.dart';
 import 'package:rive_animation/screens/messaging/chat.dart';
+import 'package:rive_animation/screens/onboarding/components/animated_btn.dart';
 import 'package:rive_animation/screens/onboarding/onboarding_screen.dart';
 
+import '../../onboarding/components/animated_btn_courseCard.dart';
+
 class CourseCard extends StatelessWidget {
-  const CourseCard({
+  CourseCard({
     Key? key,
     required this.title,
     required this.description,
@@ -19,6 +23,7 @@ class CourseCard extends StatelessWidget {
 
   final String title, description, duration, iconSrc;
   final Color color;
+  late RiveAnimationController _btnAnimationController;
 
   @override
   Widget build(BuildContext context) {
@@ -101,6 +106,15 @@ class CourseCard extends StatelessWidget {
                   const SizedBox(
                     height: 7,
                   ),
+                  // AnimatedBtnCard(
+                  //   btnAnimationController: _btnAnimationController,
+                  //   press: () {
+                  //     Navigator.pop(context);
+                  //     Navigator.of(context).push(MaterialPageRoute(
+                  //       builder: (context) => const CourseDescription(),
+                  //     ));
+                  //   },
+                  // )
                   InkWell(
                     onTap: () {
                       Navigator.pop(context);
