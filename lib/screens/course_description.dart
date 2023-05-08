@@ -27,11 +27,11 @@ class CourseDescription extends StatelessWidget {
               color: Colors.blueGrey,
             ),
           ),
-          Spacer(
-            flex: 1,
-          ),
+          // Spacer(
+          //   flex: 1,
+          // ),
           Text(
-            'Course Description',
+            '             Course Description',
             style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold),
           )
         ],
