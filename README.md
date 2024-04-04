@@ -1,7 +1,16 @@
-This is a demmo App that provides a platform for learning Tanzanian skills from hand-works, parenting, agriculture, art and many more of the kind.
+# skilika
 
-### App Screenshots
-<img src="assets/Backgrounds/111a.jpeg" width="250"> 
-<img src="assets/Backgrounds/111b.jpeg" width="250"> 
-<img src="assets/Backgrounds/111c.jpeg" width="250"> 
-<img src="assets/Backgrounds/111d.jpeg" width="250">
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
